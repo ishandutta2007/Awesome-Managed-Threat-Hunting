@@ -1,46 +1,55 @@
-# Awesome-Managed-Threat-Hunting
+# 🛡️ Awesome-Managed-Threat-Hunting
 
-## Top Managed Threat Hunting Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Managed Threat Hunting Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🎯 Top Managed Threat Hunting Ecosystem & MDR Directory
 
-*Focused on 24/7 Human-Led Hunting, MDR Platforms & Self-Hosted Threat Hunting Tooling*  
+> 🔍 **A curated list of elite SaaS Managed Detection & Response (MDR) platforms, 24/7 human-led threat hunting services, and battle-tested open-source hunting security tooling.**
 
-**Last updated: November 2026**
+Welcome to the definitive threat hunting knowledge hub. This repository catalogues the leading commercial enterprise solutions and community open-source frameworks powering modern Security Operations Centers (SOCs), incident response teams, and adversary hunting operations across endpoint, identity, cloud, and network attack surfaces.
 
+---
 
+## 📑 Table of Contents
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Managed Threat Hunting**. These services and tools enable organizations to proactively search for hidden adversaries that automated detection misses—combining human expertise with telemetry analysis to find threats before they cause damage.
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Commercial MDR Platforms](#-saas--hosted-commercial-mdr-platforms)
+- [💻 Open-Source Threat Hunting Tools & Frameworks](#-open-source-threat-hunting-tools--frameworks)
+  - [⭐ Open-Source Repositories Ranked by Stars](#-open-source-repositories-ranked-by-stars)
+  - [🛠️ Tooling Categories & Framework Architecture](#️-tooling-categories--framework-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#️-disclaimer)
 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
-**Examples** include CrowdStrike Falcon OverWatch, SentinelOne Vigilance, Mandiant Managed Defense, Red Canary MDR, Huntress, Sophos Managed Threat Response, Arctic Wolf, Rapid7 Managed Threat Complete, eSentire MDR, and Secureworks Taegis (the category leaders).
+The global **Managed Detection and Response (MDR)** and **Threat Hunting** market is currently estimated between **$5.0B and $6.2B**, expanding rapidly at a Compound Annual Growth Rate (**CAGR of 18% to 23%**) toward an estimated **$15B to $25B** over the next decade. 
 
+The sector exhibits **moderate fragmentation**:
+- **Technology & Telemetry Layer**: Heavily dominated by XDR and EDR platform giants (CrowdStrike, SentinelOne, Microsoft Defender, Google SecOps) capturing core telemetry.
+- **Service & Operations Layer**: Highly dispersed among dedicated MDR vendors, pure-play threat intelligence specialists, and regional Managed Security Service Providers (MSSPs) providing dedicated 24/7/365 human SOC analysts, reverse engineering, and threat containment.
 
+---
 
-**Open-source emphasis**: Managed Threat Hunting is a domain where open-source tooling is **fundamentally different from the managed service it complements**. The commercial leaders provide **human threat hunters monitoring your environment 24/7**—a service that no open-source project can replicate. What open-source *can* provide is the **tooling and frameworks that threat hunters use**: **Velociraptor** is the standout open-source endpoint visibility and response platform for large-scale hunting and forensic collection (4k+ stars, Go-based, production-ready for serious pilots) , **Security Onion** provides a free platform for threat hunting, enterprise security monitoring, and log management , and **The ThreatHunter-Playbook** offers a structured playbook of hunting techniques mapped to MITRE ATT&CK, designed to help hunters develop hypotheses and reduce false positives . The critical caveat: **open-source gives you the tools a hunter uses, not the hunter**—managed threat hunting is a service, and organizations without dedicated security staff should evaluate MDR providers rather than attempting to self-hunt with open-source tools alone.
+## 🏢 SaaS & Hosted Commercial MDR Platforms
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global Managed Detection and Response (MDR) and Threat Hunting market is estimated at approximately $5.0B to $6.2B and is projected to expand at a CAGR of 18%–23% toward $15B–$25B over the next decade. The sector remains moderately fragmented: while platform leaders dominate telemetry ingestion, delivery of 24/7 human-led hunting and SOC operations is shared among cybersecurity giants, specialized pure-play MDR vendors, and regional MSSPs.
-
-## SaaS/Hosted Platforms
+Below is the comparative breakdown of the top commercial managed threat hunting and MDR providers, ordered by company valuation and market capitalization:
 
 | Platform | Valuation / Revenue | Starting Pricing | Free Tier / Free Trial Limits | Description |
 |---|---|---|---|---|
@@ -55,88 +64,98 @@ The global Managed Detection and Response (MDR) and Threat Hunting market is est
 | **[Secureworks Taegis](https://www.secureworks.com/)** | $859M (Acquired by Sophos) | Managed XDR/MDR from ~$100–$130/endpoint/year (standalone Taegis XDR platform entry at ~$43,000/year for ~1,000 endpoints) | 14-day free trial (Taegis XDR evaluation tenant supporting limited host agents and cloud telemetry connectors) | Open XDR architecture with managed detection, adversary threat hunting, and comprehensive cross-vendor telemetry correlation. |
 | **[Red Canary MDR](https://redcanary.com/)** | $675M (Acquired by Zscaler) | From $120/endpoint/year ($10/endpoint/month) base subscription; $10/unit overage; identity coverage at $100/account/year | No public self-service free trial; customized proof-of-value (POV) with environment telemetry mapping | Pioneer in detection engineering and human-led MDR, ingesting raw endpoint telemetry to conduct continuous 24/7 adversary hunting and threat neutralization. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source Threat Hunting Tools & Frameworks
 
+Open-source tooling empowers defenders and threat hunting teams to collect forensic telemetry, execute custom queries, and map behavior to adversary tactics (such as MITRE ATT&CK). 
 
-### Endpoint Visibility & Response Platforms (Velociraptor)
+> **Important Operational Distinction**: Open-source provides the **arsenal and instrumentation** (queries, playbooks, engines); commercial MDR provides the **24/7 human SOC team**.
 
+### ⭐ Open-Source Repositories Ranked by Stars
 
+The following projects represent the top open-source threat hunting, forensic analysis, rule detection, and security monitoring platforms, sorted in descending order by GitHub Stars:
 
-- **[Velociraptor](https://github.com/Velocidex/velociraptor)**  
+1. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
+   The leading open-source unified XDR and SIEM security platform. Provides endpoint visibility, log collection, file integrity monitoring (FIM), vulnerability detection, regulatory compliance scanning, and active incident response integration across Linux, Windows, macOS, and container environments.
 
-  The **leading open-source endpoint visibility and response platform for threat hunting** (Go, 4k+ GitHub stars, 626 forks, active development through 2026) . Features: **VQL (Velociraptor Query Language)** for custom queries; **artifact-based collection** (version-controlled YAML+VQL); **live response actions** (kill process, isolate host, dump memory); **VFS (Virtual File System)** for interactive endpoint inspection; **hunts across thousands of hosts** with offline endpoint pickup; and **client-side tracing** for debugging hung collections. **Production readiness**: evaluated as "production-ready for a serious pilot" with strong community momentum and frequent updates . **Best for organizations with security staff** wanting to conduct their own hunting and forensic collection at scale—but it requires operational expertise and does not provide the 24/7 human monitoring of managed services.
+2. **[Sigma](https://github.com/SigmaHQ/sigma)** [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
+   The industry-standard open signature format and rule repository for log detection engineering. Allows threat hunters to write generic detection hypotheses and queries once, compiling them into SIEM target languages like Splunk, Elastic, Sentinel, QRadar, and Logscale.
 
+3. **[MISP](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+   Open-source threat intelligence and sharing platform (TISP) used by SOCs, CERTs, and hunting teams worldwide to ingest, structure, correlate, and operationalize indicators of compromise (IOCs) and adversary tactics.
 
+4. **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)** [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers)  
+   Free and open-source Linux distribution for threat hunting, enterprise security monitoring, and network analysis. Bundles Elasticsearch, Logstash, Kibana, Suricata, Zeek, Wazuh, osquery, and CyberChef into a unified analyst interface.
 
-### Threat Hunting Platforms & Playbooks
+5. **[The ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook)** [![GitHub stars](https://img.shields.io/github/stars/OTRF/ThreatHunter-Playbook?style=social&color=white)](https://github.com/OTRF/ThreatHunter-Playbook/stargazers)  
+   Community-driven detection logic playbook founded by Roberto Rodriguez (@Cyb3rWard0g). Provides granular event chains mapped directly to MITRE ATT&CK techniques with validated hunting queries across Sysmon, Windows Event Logs, and Linux audit logs.
 
+6. **[Velociraptor](https://github.com/Velocidex/velociraptor)** [![GitHub stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers)  
+   Advanced endpoint visibility and digital forensics/incident response (DFIR) platform. Powered by the Velociraptor Query Language (VQL), it allows security engineers to deploy surgical hunts across tens of thousands of distributed endpoints simultaneously.
 
+7. **[Malwoverview](https://github.com/alexandreborges/malwoverview)** [![GitHub stars](https://img.shields.io/github/stars/alexandreborges/malwoverview?style=social&color=white)](https://github.com/alexandreborges/malwoverview/stargazers)  
+   Multi-engine first response CLI utility for threat hunting and malware triage. Aggregates and correlates IOC data across VirusTotal, Hybrid Analysis, URLHaus, GreyNoise, ThreatFox, MalwareBazaar, and Shodan into unified threat intelligence views.
 
-- **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)**  
+8. **[TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
+   Scalable, open-source Security Incident Response Platform (SIRP) tightly coupled with Cortex for automated observables enrichment, playbook orchestration, and collaborative threat investigation.
 
-  A free and open platform for **threat hunting, enterprise security monitoring, and log management** . Includes interfaces for alerting, dashboards, hunting, PCAP, detections, and case management, along with tools such as osquery, CyberChef, Elasticsearch, Logstash, Kibana, Suricata, and Zeek. **Best for organizations wanting an integrated open-source platform** for hunting and monitoring—but it is infrastructure you operate, not a managed hunting service.
+9. **[Loki](https://github.com/Neo23x0/Loki)** [![GitHub stars](https://img.shields.io/github/stars/Neo23x0/Loki?style=social&color=white)](https://github.com/Neo23x0/Loki/stargazers)  
+   Lightweight, portable IOC and YARA scanner developed by Florian Roth. Fast forensic first response scanner detecting traces of compromise, webshells, APT persistence, and malicious hashes on suspicious hosts.
 
+10. **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** [![GitHub stars](https://img.shields.io/github/stars/WithSecureLabs/chainsaw?style=social&color=white)](https://github.com/WithSecureLabs/chainsaw/stargazers)  
+    High-performance Rust-based hunting utility designed to rapidly parse and search massive volumes of Windows Event Logs (EVTX) using Sigma detection rules and custom hunting patterns.
 
+11. **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** [![GitHub stars](https://img.shields.io/github/stars/Yamato-Security/hayabusa?style=social&color=white)](https://github.com/Yamato-Security/hayabusa/stargazers)  
+    Blazing fast Windows event log fast forensics and threat hunting engine written in Rust. Compiles Sigma rules and custom alerts to reconstruct timeline evidence and suspicious adversary activities in seconds.
 
-- **[The ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook)**  
-
-  A **threat hunter's playbook** to aid the development of techniques and hypotheses for hunting campaigns (by Roberto Rodriguez @Cyb3rWard0g) . Provides specific chains of events at the host level (leveraging Sysmon and Windows Events logs) so hunters can develop queries or alerts in their preferred tool—Splunk, ELK, Sigma, GrayLog, etc. Follows the **MITRE ATT&CK framework** structure and includes hunting notes and references to back up each technique. **Best for threat hunters** wanting a structured starting point for hypothesis development—but it is a knowledge resource, not a platform or automated service.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Wazuh** — Open-source SIEM/XDR platform (GPL-2.0) with log analysis, file integrity monitoring, vulnerability detection, and MITRE ATT&CK mapping; widely used as the foundation for SOC home labs and threat hunting exercises . **Best for teams wanting a self-hosted SIEM foundation** for hunting—but it is detection infrastructure, not a managed hunting service.
-
-- **Matano** — Open-source **security data lake** for threat hunting, detection & response, and cybersecurity analytics at petabyte scale on AWS; supports custom detections in Python and log transformation via VRL . **Best for AWS-centric organizations** wanting a scalable data lake for hunting—but it is infrastructure requiring deployment and management.
-
-- **Malwoverview** — First response tool for threat hunting across VirusTotal, Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar, ThreatFox, Triage, IPInfo, Shodan, AbuseIPDB, GreyNoise, URLScan.io, Whois/RDAP, NIST, and VulnCheck . **Best for individual hunters** wanting quick IOC enrichment—not a platform or service.
-
-
-
-**Frameworks for building custom systems**: For **endpoint hunting and forensic collection at scale**, Velociraptor provides the most complete open-source platform . For an **integrated hunting and monitoring platform**, Security Onion . For **structured hunting hypotheses and techniques**, The ThreatHunter-Playbook . For **SIEM-based hunting foundations**, Wazuh . **No open-source project provides managed threat hunting**—that is a human service. Organizations requiring 24/7 hunting should evaluate commercial MDR providers (Huntress, Red Canary, CrowdStrike OverWatch) rather than attempting to self-hunt with open-source tools alone.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Managed threat hunting platforms handling security telemetry must comply with organizational security policies and privacy regulations; **self-hosted hunting tools require skilled operators**—Velociraptor and Security Onion are powerful but demand expertise to configure and interpret.
-
-- **Open-source threat hunting is fundamentally different from managed threat hunting**—open-source provides the *tools* (Velociraptor, Security Onion, The ThreatHunter-Playbook) , but **managed threat hunting is a service** delivered by human analysts 24/7. Organizations without dedicated security staff should not assume that deploying open-source tools constitutes "managed" hunting—they should evaluate MDR providers like Huntress, Red Canary, or CrowdStrike OverWatch. Open-source is best suited for organizations with existing SOC teams who want to augment their capabilities.
-
-- Verify license terms for commercial use; Velociraptor is open-source (check repository) , Security Onion is open-source , and The ThreatHunter-Playbook is a community resource .
-
-
+12. **[Matano](https://github.com/matanolabs/matano)** [![GitHub stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)  
+    Cloud-native serverless security data lake for AWS. Transforms and ingests petabytes of security logs via Vector Remap Language (VRL) and allows analysts to author Python-based threat detections on top of Apache Iceberg tables.
 
 ---
 
+### 🛠️ Tooling Categories & Framework Architecture
 
+- **Live Endpoint Hunting & Forensic Triage**: [Velociraptor](https://github.com/Velocidex/velociraptor), [Loki](https://github.com/Neo23x0/Loki)
+- **Log Forensics & Timeline Reconstruction**: [Chainsaw](https://github.com/WithSecureLabs/chainsaw), [Hayabusa](https://github.com/Yamato-Security/hayabusa)
+- **Detection Engineering & Query Standardization**: [Sigma](https://github.com/SigmaHQ/sigma), [The ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook)
+- **Unified SIEM / XDR Platforms**: [Wazuh](https://github.com/wazuh/wazuh), [Security Onion](https://github.com/Security-Onion-Solutions/securityonion)
+- **Threat Intel & Case Management**: [MISP](https://github.com/MISP/MISP), [TheHive](https://github.com/TheHive-Project/TheHive), [Malwoverview](https://github.com/alexandreborges/malwoverview)
+- **Security Data Lakes**: [Matano](https://github.com/matanolabs/matano)
 
-**Made for SOC analysts, threat hunters, and organizations choosing their hunting and MDR strategy.**  
+---
 
-Let's make threat hunting more open at the tooling layer, but with clear eyes about the human expertise and 24/7 coverage that managed services provide.
+## 🤝 How to Contribute
+
+Contributions, suggestions, and corrections are always welcome!
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a new branch: `git checkout -b feature/new-hunting-tool`.
+3. 📝 Add or edit entries following the existing markdown formatting and link standards.
+4. 🚀 Push your branch and open a descriptive **Pull Request**.
+
+---
+
+## 💖 Support
+
+Thank you for exploring and utilizing the **Awesome Managed Threat Hunting** ecosystem!
+
+If you find this repository valuable:
+- ⭐ **Star this repository** on GitHub to help other security professionals discover it!
+- 🍴 **Fork it** and contribute new tools, intelligence feeds, or case studies.
+- 📢 **Share** with your infosec peers, blue teams, and SOC colleagues.
+- ☕ **Sponsor or buy a coffee** to fuel continuous updates via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Managed-Threat-Hunting&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Managed-Threat-Hunting&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated index** provided for educational, architectural, and evaluation purposes; it does not constitute an explicit endorsement of any commercial vendor or product.
+- Commercial MDR platforms provide human-led investigation and incident containment SLAs; self-hosted open-source security tools require dedicated operational infrastructure, maintenance, and skilled security analysis.
+- Verify all vendor licensing terms, subscription commitments, and data privacy compliance standards before deploying in enterprise environments.

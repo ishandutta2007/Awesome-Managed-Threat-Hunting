@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background:#090d16;border-radius:14px;overflow:hidden;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a12"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="radarSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Title Gradient -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(56, 189, 248, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes pulseTarget {
+      0% { r: 6px; opacity: 1; }
+      50% { r: 16px; opacity: 0.3; }
+      100% { r: 6px; opacity: 1; }
+    }
+    @keyframes radarSpin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-360px); }
+      100% { transform: translateY(360px); }
+    }
+    .radar-rotator {
+      transform-origin: 1020px 180px;
+      animation: radarSpin 12s linear infinite;
+    }
+    .pulsing-ping {
+      animation: pulseTarget 2.4s ease-in-out infinite;
+    }
+    .floating-badge {
+      animation: floatPill 4s ease-in-out infinite;
+    }
+    .floating-badge-delayed {
+      animation: floatPill 4.5s ease-in-out infinite 1.5s;
+    }
+    .scan-effect {
+      animation: scanline 6s linear infinite;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" fill="url(#grid)"/>
+
+  <!-- Scanning beam effect in background -->
+  <g opacity="0.15">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="#38bdf8" stroke-width="2" class="scan-effect"/>
+  </g>
+
+  <!-- Radar System Graphic (Background right side) -->
+  <g opacity="0.6">
+    <circle cx="1020" cy="180" r="140" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="1020" cy="180" r="100" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="1020" cy="180" r="60" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+    <circle cx="1020" cy="180" r="20" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="880" y1="180" x2="1160" y2="180" stroke="#1e293b" stroke-width="1"/>
+    <line x1="1020" y1="40" x2="1020" y2="320" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Rotating Radar Scanner Sweep -->
+    <g class="radar-rotator">
+      <path d="M 1020 180 L 1160 180 A 140 140 0 0 0 1020 40 Z" fill="url(#radarSweep)"/>
+      <line x1="1020" y1="180" x2="1160" y2="180" stroke="#38bdf8" stroke-width="2"/>
+    </g>
+
+    <!-- Detected Threat Blips -->
+    <circle cx="980" cy="130" r="4" fill="#ef4444"/>
+    <circle cx="980" cy="130" r="8" fill="none" stroke="#ef4444" stroke-width="1.5" class="pulsing-ping"/>
+
+    <circle cx="1070" cy="220" r="3" fill="#38bdf8"/>
+    <circle cx="1070" cy="220" r="7" fill="none" stroke="#38bdf8" stroke-width="1.5" class="pulsing-ping" style="animation-delay: 1.2s;"/>
+
+    <circle cx="1050" cy="110" r="3.5" fill="#f59e0b"/>
+  </g>
+
+  <!-- Left Header Content (Strictly in foreground with clear contrast) -->
+  <!-- Top Category Tag -->
+  <g transform="translate(60, 48)">
+    <rect width="260" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="15" cy="15" r="4" fill="#10b981"/>
+    <text x="28" y="20" fill="#94a3b8" font-size="12" font-weight="600" letter-spacing="1">CURATED THREAT HUNTING DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="60" y="132" fill="url(#titleGrad)" font-size="44" font-weight="800" letter-spacing="-1">Awesome Managed Threat Hunting</text>
+
+  <!-- Subtitle -->
+  <text x="60" y="174" fill="#94a3b8" font-size="19" font-weight="400">
+    24/7 Human-Led Threat Hunting, MDR Platforms, &amp; Open-Source SOC Tooling
+  </text>
+
+  <!-- Decorative Metric / Value Badges (Animated Floating Cards) -->
+  <g class="floating-badge" transform="translate(60, 224)">
+    <rect width="200" height="74" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="32" fill="#38bdf8" font-size="12" font-weight="700" letter-spacing="1">COMMERCIAL MDR</text>
+    <text x="20" y="58" fill="#f8fafc" font-size="18" font-weight="700">Top SaaS Platforms</text>
+  </g>
+
+  <g class="floating-badge-delayed" transform="translate(280, 224)">
+    <rect width="220" height="74" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="32" fill="#818cf8" font-size="12" font-weight="700" letter-spacing="1">OPEN SOURCE TOOLS</text>
+    <text x="20" y="58" fill="#f8fafc" font-size="18" font-weight="700">Ranked by GitHub Stars</text>
+  </g>
+
+  <g class="floating-badge" transform="translate(520, 224)">
+    <rect width="200" height="74" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="20" y="32" fill="#10b981" font-size="12" font-weight="700" letter-spacing="1">RADAR TELEMETRY</text>
+    <text x="20" y="58" fill="#f8fafc" font-size="18" font-weight="700">MITRE ATT&amp;CK Mapped</text>
+  </g>
+
+  <!-- Clean Bottom Accent Line -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#titleGrad)"/>
+</svg>
