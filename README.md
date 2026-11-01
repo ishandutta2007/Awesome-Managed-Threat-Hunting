@@ -30,79 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
-- [SaaS/Hosted Platforms](#saas-products)
-
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS/Hosted Platforms](#saas-hosted-platforms)
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global Managed Detection and Response (MDR) and Threat Hunting market is estimated at approximately $5.0B to $6.2B and is projected to expand at a CAGR of 18%–23% toward $15B–$25B over the next decade. The sector remains moderately fragmented: while platform leaders dominate telemetry ingestion, delivery of 24/7 human-led hunting and SOC operations is shared among cybersecurity giants, specialized pure-play MDR vendors, and regional MSSPs.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[CrowdStrike Falcon OverWatch](https://www.crowdstrike.com/)**  
-
-  Managed threat hunting service that proactively searches for adversary activity across the Falcon platform's telemetry; human hunters investigate and escalate confirmed threats with full context.
-
-
-
-- **[SentinelOne Vigilance](https://www.sentinelone.com/)**  
-
-  Managed threat hunting add-on to SentinelOne's autonomous EDR; human analysts hunt for threats and respond on the customer's behalf.
-
-
-
-- **[Mandiant Managed Defense](https://www.mandiant.com/)**  
-
-  Managed detection and response from Mandiant's incident response teams; combines front-line threat intelligence with continuous monitoring and hunting.
-
-
-
-- **[Red Canary MDR](https://redcanary.com/)**  
-
-  Managed detection and response platform with a focus on detection engineering and threat hunting; provides 24/7 SOC coverage.
-
-
-
-- **[Huntress](https://www.huntress.com/)**  
-
-  Managed detection and response built for small businesses and MSPs; combines endpoint detection with a **human threat hunting team** that investigates and responds to incidents.
-
-
-
-- **[Sophos Managed Threat Response](https://www.sophos.com/)**  
-
-  Managed threat hunting, detection, and response service integrated with Sophos endpoint protection.
-
-
-
-- **[Arctic Wolf](https://arcticwolf.com/)**  
-
-  Managed detection and response with 24/7 SOC coverage and threat hunting.
-
-
-
-- **[Rapid7 Managed Threat Complete](https://www.rapid7.com/)**  
-
-  Managed detection and response combining InsightIDR with Rapid7's SOC team.
-
-
-
-- **[eSentire MDR](https://www.esentire.com/)**  
-
-  Managed detection and response service with 24/7 threat hunting.
-
-
-
-- **[Secureworks Taegis](https://www.secureworks.com/)**  
-
-  Cloud-native XDR platform with managed detection and response services.
-
-
+| Platform | Valuation / Revenue | Starting Pricing | Free Tier / Free Trial Limits | Description |
+|---|---|---|---|---|
+| **[CrowdStrike Falcon OverWatch](https://www.crowdstrike.com/)** | ~$85B–$100B+ Market Cap | From $184.99/device/year ($19.99/device/month) for Falcon Enterprise (bundled with OverWatch hunting); MDR add-on from ~$42/endpoint/month | 15-day free trial (up to 50 endpoints with full Falcon platform functionality) | Proactive managed threat hunting across Falcon endpoint telemetry where human elite hunters hunt 24/7 and deliver actionable escalations. |
+| **[SentinelOne Vigilance](https://www.sentinelone.com/)** | ~$8.5B Market Cap | Vigilance MDR add-on from ~$15–$50/endpoint/year (layered on Singularity Complete at ~$180/endpoint/year; combined ~$15–$20/endpoint/month) | 30-day proof-of-concept / evaluation trial (guided evaluation with full autonomous EDR & hunting access) | 24/7 managed threat hunting and triage add-on to Singularity XDR/EDR, responding and neutralizing threats on behalf of customers. |
+| **[Mandiant Managed Defense](https://www.mandiant.com/)** | $5.4B (Acquired by Google) | Starting tier from ~$80,000–$90,000/year for enterprise baseline environments | No free trial for Managed Defense (human SOC service); 14-day trials available for standalone Mandiant Threat Intelligence & Attack Surface modules | Premier front-line MDR service backed by Mandiant incident responders and Google SecOps, integrating third-party EDR telemetry with proprietary adversary intel. |
+| **[Arctic Wolf](https://arcticwolf.com/)** | $4.3B Valuation | From $44,000/year (MDR Basic for up to 100 users, ~$36.67/user/month); volume tiers at ~$190–$260/user/year | No self-service free trial; vendor-led technical scoping, architecture evaluation, and live customized SOC demo | Concierge Security Team delivery model providing 24/7 monitoring, managed threat hunting, log retention, and strategic risk guidance. |
+| **[Sophos Managed Threat Response](https://www.sophos.com/)** | $3.9B (Acquired by Thoma Bravo; >$1B Rev) | From ~$240/endpoint/year (~$20/endpoint/month) for Sophos MDR Complete; MDR Essentials entry at ~$170/endpoint/year | 30-day free trial (full access to Sophos Central management, Intercept X Advanced with XDR) | 24/7 human-led threat hunting, investigation, and neutralization service natively integrated with Sophos endpoint, firewall, and identity products. |
+| **[Huntress](https://www.huntress.com/)** | $1.55B Valuation | From $8.99/endpoint/month for Managed EDR (~$7.00–$7.99/endpoint/month at standard mid-tier volume) | 14-day free trial (full-featured unlimited endpoint deployment for Managed EDR/ITDR/SIEM; 21 days for SAT) | Human-led MDR designed for mid-market and MSPs, pairing lightweight agent detection with 24/7 human threat hunter investigation and remediation playbooks. |
+| **[eSentire MDR](https://www.esentire.com/)** | $1.1B Valuation | From ~$60–$100/endpoint/year for smaller deployments (50–200 endpoints); drops to ~$40–$80/endpoint/year at scale | No self-service free trial; live proof-of-value (POV) and interactive threat investigation demo | 24/7 multi-signal Managed Detection and Response focusing on rapid human-led threat containment, ATLAS AI curation, and embedded DFIR capabilities. |
+| **[Rapid7 Managed Threat Complete](https://www.rapid7.com/)** | ~$850M Market Cap (~$850M ARR) | From ~$15–$22/asset/month (typically structured around a 500-asset baseline minimum, starting ~$73,000–$90,000/year) | 30-day free trial (available for underlying InsightIDR SIEM/XDR and InsightVM platforms) | End-to-end MDR bundling InsightIDR cloud SIEM, unlimited InsightVM vulnerability management, and 24/7 SOC threat hunting. |
+| **[Secureworks Taegis](https://www.secureworks.com/)** | $859M (Acquired by Sophos) | Managed XDR/MDR from ~$100–$130/endpoint/year (standalone Taegis XDR platform entry at ~$43,000/year for ~1,000 endpoints) | 14-day free trial (Taegis XDR evaluation tenant supporting limited host agents and cloud telemetry connectors) | Open XDR architecture with managed detection, adversary threat hunting, and comprehensive cross-vendor telemetry correlation. |
+| **[Red Canary MDR](https://redcanary.com/)** | $675M (Acquired by Zscaler) | From $120/endpoint/year ($10/endpoint/month) base subscription; $10/unit overage; identity coverage at $100/account/year | No public self-service free trial; customized proof-of-value (POV) with environment telemetry mapping | Pioneer in detection engineering and human-led MDR, ingesting raw endpoint telemetry to conduct continuous 24/7 adversary hunting and threat neutralization. |
 
 ## Open-Source GitHub Projects
 
