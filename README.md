@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Managed-Threat-Hunting?style=flat-square&logo=github" alt="Issues"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Managed-Threat-Hunting/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/></a>
@@ -74,42 +74,42 @@ Open-source tooling empowers defenders and threat hunting teams to collect foren
 
 ### ⭐ Open-Source Repositories Ranked by Stars
 
-The following projects represent the top open-source threat hunting, forensic analysis, rule detection, and security monitoring platforms, sorted in descending order by GitHub Stars:
+The following projects represent the top open-source threat hunting, forensic analysis, rule detection, and security monitoring platforms, sorted in descending order by GitHub_Stars:
 
-1. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
+1. **[Wazuh](https://github.com/wazuh/wazuh)** [![GitHub_Stars](https://img.shields.io/github/stars/wazuh/wazuh?style=social&color=white)](https://github.com/wazuh/wazuh/stargazers)  
    The leading open-source unified XDR and SIEM security platform. Provides endpoint visibility, log collection, file integrity monitoring (FIM), vulnerability detection, regulatory compliance scanning, and active incident response integration across Linux, Windows, macOS, and container environments.
 
-2. **[Sigma](https://github.com/SigmaHQ/sigma)** [![GitHub stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
+2. **[Sigma](https://github.com/SigmaHQ/sigma)** [![GitHub_Stars](https://img.shields.io/github/stars/SigmaHQ/sigma?style=social&color=white)](https://github.com/SigmaHQ/sigma/stargazers)  
    The industry-standard open signature format and rule repository for log detection engineering. Allows threat hunters to write generic detection hypotheses and queries once, compiling them into SIEM target languages like Splunk, Elastic, Sentinel, QRadar, and Logscale.
 
-3. **[MISP](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
+3. **[MISP](https://github.com/MISP/MISP)** [![GitHub_Stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)  
    Open-source threat intelligence and sharing platform (TISP) used by SOCs, CERTs, and hunting teams worldwide to ingest, structure, correlate, and operationalize indicators of compromise (IOCs) and adversary tactics.
 
-4. **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)** [![GitHub stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers)  
+4. **[Security Onion](https://github.com/Security-Onion-Solutions/securityonion)** [![GitHub_Stars](https://img.shields.io/github/stars/Security-Onion-Solutions/securityonion?style=social&color=white)](https://github.com/Security-Onion-Solutions/securityonion/stargazers)  
    Free and open-source Linux distribution for threat hunting, enterprise security monitoring, and network analysis. Bundles Elasticsearch, Logstash, Kibana, Suricata, Zeek, Wazuh, osquery, and CyberChef into a unified analyst interface.
 
-5. **[The ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook)** [![GitHub stars](https://img.shields.io/github/stars/OTRF/ThreatHunter-Playbook?style=social&color=white)](https://github.com/OTRF/ThreatHunter-Playbook/stargazers)  
+5. **[The ThreatHunter-Playbook](https://github.com/OTRF/ThreatHunter-Playbook)** [![GitHub_Stars](https://img.shields.io/github/stars/OTRF/ThreatHunter-Playbook?style=social&color=white)](https://github.com/OTRF/ThreatHunter-Playbook/stargazers)  
    Community-driven detection logic playbook founded by Roberto Rodriguez (@Cyb3rWard0g). Provides granular event chains mapped directly to MITRE ATT&CK techniques with validated hunting queries across Sysmon, Windows Event Logs, and Linux audit logs.
 
-6. **[Velociraptor](https://github.com/Velocidex/velociraptor)** [![GitHub stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers)  
+6. **[Velociraptor](https://github.com/Velocidex/velociraptor)** [![GitHub_Stars](https://img.shields.io/github/stars/Velocidex/velociraptor?style=social&color=white)](https://github.com/Velocidex/velociraptor/stargazers)  
    Advanced endpoint visibility and digital forensics/incident response (DFIR) platform. Powered by the Velociraptor Query Language (VQL), it allows security engineers to deploy surgical hunts across tens of thousands of distributed endpoints simultaneously.
 
-7. **[Malwoverview](https://github.com/alexandreborges/malwoverview)** [![GitHub stars](https://img.shields.io/github/stars/alexandreborges/malwoverview?style=social&color=white)](https://github.com/alexandreborges/malwoverview/stargazers)  
+7. **[Malwoverview](https://github.com/alexandreborges/malwoverview)** [![GitHub_Stars](https://img.shields.io/github/stars/alexandreborges/malwoverview?style=social&color=white)](https://github.com/alexandreborges/malwoverview/stargazers)  
    Multi-engine first response CLI utility for threat hunting and malware triage. Aggregates and correlates IOC data across VirusTotal, Hybrid Analysis, URLHaus, GreyNoise, ThreatFox, MalwareBazaar, and Shodan into unified threat intelligence views.
 
-8. **[TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
+8. **[TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)  
    Scalable, open-source Security Incident Response Platform (SIRP) tightly coupled with Cortex for automated observables enrichment, playbook orchestration, and collaborative threat investigation.
 
-9. **[Loki](https://github.com/Neo23x0/Loki)** [![GitHub stars](https://img.shields.io/github/stars/Neo23x0/Loki?style=social&color=white)](https://github.com/Neo23x0/Loki/stargazers)  
+9. **[Loki](https://github.com/Neo23x0/Loki)** [![GitHub_Stars](https://img.shields.io/github/stars/Neo23x0/Loki?style=social&color=white)](https://github.com/Neo23x0/Loki/stargazers)  
    Lightweight, portable IOC and YARA scanner developed by Florian Roth. Fast forensic first response scanner detecting traces of compromise, webshells, APT persistence, and malicious hashes on suspicious hosts.
 
-10. **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** [![GitHub stars](https://img.shields.io/github/stars/WithSecureLabs/chainsaw?style=social&color=white)](https://github.com/WithSecureLabs/chainsaw/stargazers)  
+10. **[Chainsaw](https://github.com/WithSecureLabs/chainsaw)** [![GitHub_Stars](https://img.shields.io/github/stars/WithSecureLabs/chainsaw?style=social&color=white)](https://github.com/WithSecureLabs/chainsaw/stargazers)  
     High-performance Rust-based hunting utility designed to rapidly parse and search massive volumes of Windows Event Logs (EVTX) using Sigma detection rules and custom hunting patterns.
 
-11. **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** [![GitHub stars](https://img.shields.io/github/stars/Yamato-Security/hayabusa?style=social&color=white)](https://github.com/Yamato-Security/hayabusa/stargazers)  
+11. **[Hayabusa](https://github.com/Yamato-Security/hayabusa)** [![GitHub_Stars](https://img.shields.io/github/stars/Yamato-Security/hayabusa?style=social&color=white)](https://github.com/Yamato-Security/hayabusa/stargazers)  
     Blazing fast Windows event log fast forensics and threat hunting engine written in Rust. Compiles Sigma rules and custom alerts to reconstruct timeline evidence and suspicious adversary activities in seconds.
 
-12. **[Matano](https://github.com/matanolabs/matano)** [![GitHub stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)  
+12. **[Matano](https://github.com/matanolabs/matano)** [![GitHub_Stars](https://img.shields.io/github/stars/matanolabs/matano?style=social&color=white)](https://github.com/matanolabs/matano/stargazers)  
     Cloud-native serverless security data lake for AWS. Transforms and ingests petabytes of security logs via Vector Remap Language (VRL) and allows analysts to author Python-based threat detections on top of Apache Iceberg tables.
 
 ---
